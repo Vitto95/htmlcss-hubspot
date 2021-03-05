@@ -37,6 +37,10 @@ a {
   padding: 5px;
 }
 
+body {
+  min-width: 1200px;
+}
+
 /* /GLOBAL */
 
 /* HEADER */
@@ -46,6 +50,7 @@ header div.container {
   top: 0;
   background-color: #f4f9fd;
   height: 100px;
+  min-width: 1200px;
 }
 
 /* NAVBAR FIXED */
