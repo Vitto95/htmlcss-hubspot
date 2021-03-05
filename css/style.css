@@ -26,6 +26,14 @@
   display: inline-block;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -56,17 +64,6 @@ header div.container {
   height: 100px;
   min-width: 1200px;
   z-index: 999;
-}
-
-.container-2 {
-  margin-top: 100px;
-}
-
-.container-2,
-.container-3 {
-  width: 100%;
-  height: 200px;
-  background: brown;
 }
 
 /* NAVBAR FIXED */
@@ -107,5 +104,31 @@ header .languages {
 /* /CONTENT-RIGHT */
 
 /* /NAVBAR FIXED */
+
+/* NAVBAR STATIC */
+
+.navbar-static {
+  height: 100px;
+  margin-top: 100px;
+  line-height: 100px;
+}
+
+.logo img {
+  margin-top: 30px; /* per centrare l'immagine con la navbar a destra*/
+}
+
+.menu-inline {
+  list-style: none;
+}
+
+.menu-inline li {
+  display: inline;
+}
+
+.menu-inline li a {
+  margin-left: 5px;
+}
+
+/* /NAVBAR STATIC */
 
 /* /HEADER */
