@@ -61,6 +61,10 @@ a {
   color: white;
 }
 
+.white {
+  background-color: rgb(4, 243, 84);
+}
+
 body {
   min-width: 1200px;
 }
@@ -152,8 +156,87 @@ header .languages {
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+.text-jumbotron {
+  line-height: 1.5;
+  font-size: 80%;
+}
+
+.title-jumbotron,
+.text-jumbotron,
+.jumbotron .btn.in-bl.btn-bigger.btn-orange {
+  margin-bottom: 25px;
+}
+
+.last-text-jumbotron {
+  font-size: 70%;
 }
 
 /* /NAVBAR STATIC */
 
 /* /HEADER */
+
+/* MAIN */
+
+/* BOX N°1 */
+
+.box-1 {
+  /* height: 1000px; */
+  background-color: #f4f9fd;
+}
+
+/* CUBE */
+
+.cube {
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.illustration-cube img {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.title-cube {
+  margin-bottom: 25px;
+}
+
+.title-cube,
+.text-cube {
+  text-align: center;
+}
+
+.text-cube {
+  font-size: 80%;
+  line-height: 1.5;
+}
+
+/* /CUBE */
+
+/* FREE HUBSPOT */
+.free {
+  height: 300px;
+  margin-bottom: 40px;
+}
+/* /FREE HUBSPOT */
+
+.row {
+  height: 700px;
+}
+
+.col {
+  height: 100%;
+  width: 32%;
+}
+.col-center {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+/* /BOX N°1 */
+
+/* /MAIN */
