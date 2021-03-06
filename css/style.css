@@ -38,6 +38,10 @@
   float: right;
 }
 
+.menu-no-style {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -59,6 +63,10 @@ a {
 .btn-orange {
   background-color: #fe775a;
   color: white;
+}
+
+.check-orange {
+  color: #fe775a;
 }
 
 .white {
@@ -220,9 +228,38 @@ header .languages {
 /* FREE HUBSPOT */
 .free {
   height: 300px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
+
+.content-free {
+  width: 80%;
+  margin: auto;
+}
+
+/* LEFT COLUMN */
+
+.left-col-free {
+  width: 30%;
+}
+
+.image-free img {
+  width: 63%;
+}
+
+/* /LEFT COLUMN */
+
+/* RIGHT COLUMN */
+
+.right-col-free {
+  width: 70%;
+}
+
+/* /RIGHT COLUMN */
+
 /* /FREE HUBSPOT */
+
+/* ROW */
 
 .row {
   height: 700px;
@@ -236,6 +273,8 @@ header .languages {
   margin-right: 2%;
   margin-left: 2%;
 }
+
+/* /ROW */
 
 /* /BOX N°1 */
 
