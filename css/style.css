@@ -79,7 +79,7 @@ a {
 }
 
 .green {
-  background-color: rgb(4, 243, 84);
+  /* background-color: rgb(4, 243, 84); */
 }
 
 .title-bottom {
@@ -206,6 +206,7 @@ header .languages {
 .box-1 {
   /* height: 1000px; */
   background-color: #f4f9fd;
+  padding-bottom: 50px;
 }
 
 /* CUBE */
@@ -297,11 +298,11 @@ header .languages {
 /* ROW */
 
 .row {
-  height: 700px;
+  /* height: 700px; */
 }
 
 .col {
-  height: 100%;
+  /* height: 100%; */
   width: 32%;
 }
 .col-center {
@@ -361,6 +362,7 @@ header .languages {
 .btn-col {
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 /* /GLOBAL COLUMNS */
@@ -368,5 +370,18 @@ header .languages {
 /* /ROW */
 
 /* /BOX N°1 */
+
+/* BOX N°2 */
+
+.box-2 {
+  height: 800px;
+  background-color: #00b1b1;
+}
+
+.community {
+  height: 100%;
+}
+
+/* /BOX N°2 */
 
 /* /MAIN */
