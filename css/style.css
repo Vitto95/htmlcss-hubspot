@@ -67,6 +67,11 @@ a {
 
 .check-orange {
   color: #fe775a;
+  margin-right: 10px;
+}
+
+.check-list-inline {
+  margin-right: 10px;
 }
 
 .white {
