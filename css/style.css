@@ -75,7 +75,15 @@ a {
 }
 
 .white {
+  background-color: white;
+}
+
+.green {
   background-color: rgb(4, 243, 84);
+}
+
+.title-bottom {
+  margin-bottom: 25px;
 }
 
 body {
@@ -240,12 +248,17 @@ header .languages {
 .content-free {
   width: 80%;
   margin: auto;
+  padding-top: 70px;
 }
 
 /* LEFT COLUMN */
 
 .left-col-free {
   width: 30%;
+}
+
+.image-free {
+  margin-bottom: 25px;
 }
 
 .image-free img {
@@ -258,6 +271,23 @@ header .languages {
 
 .right-col-free {
   width: 70%;
+}
+
+.subtitle-free {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitle-free h4:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 35%;
+  display: inline-block;
+  width: 70%;
+  height: 1px;
+  border-bottom: 1px solid gray;
 }
 
 /* /RIGHT COLUMN */
@@ -278,6 +308,55 @@ header .languages {
   margin-right: 2%;
   margin-left: 2%;
 }
+
+/* GLOBAL COLUMNS */
+
+.content-col {
+  width: 85%;
+  margin: auto;
+}
+
+.image-col {
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.title-col {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-col {
+  text-align: center;
+  position: relative;
+  min-height: 120px;
+}
+
+.text-col:after {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 1px;
+  right: 50%;
+  transform: translateX(+50%);
+  bottom: 0;
+  border-bottom: 1px solid gray;
+}
+
+.subtitle-col {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-col {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* /GLOBAL COLUMNS */
 
 /* /ROW */
 
