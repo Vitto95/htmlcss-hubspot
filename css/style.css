@@ -452,12 +452,13 @@ header .languages {
 
 .box-3 {
   height: 800px;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .container-1 {
   height: 300px;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
+  padding-top: 50px;
 }
 
 .customers {
@@ -480,16 +481,46 @@ header .languages {
 
 .logos {
   width: 80%;
-  text-align: center;
+  text-align: right;
 }
 
 .row-images-logo {
   width: 100%;
+  height: 50px;
+  line-height: 50px;
 }
 
 .logo-item img {
   width: 100px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
+
+/* GROWING */
+
+.growing {
+  width: 50%;
+}
+
+.text-growing p {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.last-text-growing {
+  margin-top: 60px;
+}
+
+.image-grow {
+  width: 50%;
+  text-align: right;
+}
+
+.image-grow img {
+  width: 50%;
+}
+
+/* /GROWING */
 
 /* /BOX N°3 */
 
