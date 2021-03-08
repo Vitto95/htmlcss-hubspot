@@ -91,6 +91,10 @@ a {
   margin-bottom: 25px;
 }
 
+.text-white {
+  color: white;
+}
+
 body {
   min-width: 1200px;
 }
@@ -525,3 +529,33 @@ header .languages {
 /* /BOX N°3 */
 
 /* /MAIN */
+
+/* FOOTER */
+
+footer {
+  height: 500px;
+  background-color: #32495b;
+}
+
+.content-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.col-footer {
+  width: 25%;
+}
+
+.content-footer {
+  height: 100%;
+}
+
+.title-col-footer {
+  margin-bottom: 20px;
+}
+
+.text-col-footer {
+  color: gray;
+  line-height: 2;
+}
+/* /FOOTER */
