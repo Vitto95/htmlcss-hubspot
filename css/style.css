@@ -374,13 +374,18 @@ header .languages {
 /* BOX N°2 */
 
 .box-2 {
-  height: 800px;
+  /* height: 800px; */
   background-color: #00b1b1;
+  background-image: linear-gradient(to right, #00b1b1, #00bda5);
   padding: 40px;
 }
 
 .community {
   height: 100%;
+}
+
+.content-community {
+  color: white;
 }
 
 .text-community {
@@ -396,12 +401,20 @@ header .languages {
   width: 100%;
 }
 
+.row-community.first-row {
+  border-bottom: 1px solid white;
+}
+
 .item {
   position: relative;
   width: 25%;
   height: 200px;
-  border: 1px solid black;
-  color: white;
+}
+
+.item.one,
+.item.two,
+.item.three {
+  border-right: 1px solid white;
 }
 
 .content-item {
@@ -425,6 +438,7 @@ header .languages {
 
 .content-item p {
   font-size: 80%;
+  white-space: nowrap;
 }
 
 /* /BOX N°2 */
