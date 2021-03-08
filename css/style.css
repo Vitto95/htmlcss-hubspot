@@ -558,4 +558,20 @@ footer {
   color: gray;
   line-height: 2;
 }
+
+.btn-foot {
+  margin-top: 20px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social {
+  width: 100%;
+  color: white;
+}
+
+.social span {
+  margin-right: 13%;
+}
 /* /FOOTER */
