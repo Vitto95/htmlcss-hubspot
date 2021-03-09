@@ -557,6 +557,11 @@ footer {
 .text-col-footer {
   color: gray;
   line-height: 2;
+  opacity: 0.8;
+}
+
+.text-col-footer a {
+  color: white;
 }
 
 .btn-foot {
@@ -566,12 +571,17 @@ footer {
   padding-right: 10px;
 }
 
+#btn-foot {
+  color: #32495b;
+  font-weight: 600;
+}
+
 .social {
   width: 100%;
   color: white;
 }
 
-.social span {
+.social a {
   margin-right: 13%;
 }
 /* /FOOTER */
