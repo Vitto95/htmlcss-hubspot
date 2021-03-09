@@ -462,6 +462,7 @@ header .languages {
 .content-item h3:after {
   content: "\002B";
   font-weight: lighter;
+  font-size: 0.8em;
 }
 
 .content-item p {
