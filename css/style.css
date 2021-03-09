@@ -602,4 +602,9 @@ footer {
   margin-top: 10px;
   border-bottom: 1px solid white;
 }
+
+.legal-last a {
+  color: white;
+  margin-right: 5px;
+}
 /* /FOOTER */
