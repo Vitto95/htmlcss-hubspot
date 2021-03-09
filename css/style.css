@@ -584,4 +584,22 @@ footer {
 .social a {
   margin-right: 13%;
 }
+
+.languages-footer {
+  width: 50%;
+  margin: auto;
+}
+
+.languages-item {
+  margin-right: 2.5%;
+}
+
+.content-footer:after {
+  display: block;
+  width: 100%;
+  content: "";
+  height: 1px;
+  margin-top: 10px;
+  border-bottom: 1px solid white;
+}
 /* /FOOTER */
