@@ -237,6 +237,11 @@ header .languages {
   padding-bottom: 50px;
 }
 
+.free,
+.col {
+  box-shadow: 0 0 1px black;
+}
+
 /* CUBE */
 
 .cube {
