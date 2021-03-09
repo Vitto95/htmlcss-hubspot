@@ -53,7 +53,7 @@ a {
 }
 
 .btn {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 7px;
   padding: 5px;
 }
@@ -149,6 +149,11 @@ header .languages {
 .login {
   margin-right: 2%;
   margin-left: 2%;
+}
+
+#login {
+  color: #e26a50;
+  border: 1px solid #e26a50;
 }
 
 /* /CONTENT-RIGHT */
